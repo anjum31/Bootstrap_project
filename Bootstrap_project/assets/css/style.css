@@ -1,0 +1,41 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.spinner-wrapper{
+    background: #000;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.spinner-border{
+    height: 100px;
+    width: 100px;
+}
+
+.banner{
+    height: 60vh;
+    width: 100%;
+    background-image: url('../files/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.breadcrumb_section{
+    height: 40vh;
+    width: 100%;
+    background-image: url('../files/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
